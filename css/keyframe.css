@@ -1,0 +1,27 @@
+.bigText {
+    animation-name: HeaderText;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: ease-in;
+}
+
+@keyframes HeaderText {
+    25% {font-size: 1.5em;}
+    100% {font-size:2.5em;}
+}
+
+#slide {
+    animation-name: slideIn;
+    position: relative;
+    transition-duration: 1s;
+    transition: ease-in;
+}
+
+@keyframes slideIn {
+    0% {left: -100%;}
+    100% {left:0;s}
+    
+}
+
+
+
