@@ -55,6 +55,35 @@ nav a:hover {
 
 
 
+
+
+
+/*################### header ##############*/
+
+header{
+    margin: 0;
+    background-image: url("../images2/topbg.png");
+    height: 100vh;
+    background-size:cover;
+}
+
+h1.maintitle {
+    margin: 3% 8%;
+    line-height: 40px;
+}
+
+button.becomebtn {
+    background-color: steelblue;
+    color: white;
+    padding: 10px 20px;
+    margin: 50vh 0 0 8%;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
 /*###### mobile nav properties #######*/
 
 .mobilemenu {
@@ -126,33 +155,9 @@ nav a:hover {
 
     .mainHdr {
         background-image:url("../images2/topbg.jpg");
-        height: 60vh;
     }
 }
 
 
 
 
-
-/*################### header ##############*/
-
-header.mainHdr {
-    margin: 0;
-    background-image: url("../images2/topbg.png");
-    height: 100vh;
-    background-size:cover;
-}
-
-h1.maintitle {
-    margin: 3% 8%;
-    line-height: 40px;
-}
-
-button.becomebtn {
-    background-color: steelblue;
-    color: white;
-    padding: 10px 20px;
-    margin: 50vh 0 0 8%;
-    border: none;
-    border-radius: 8px;
-}
